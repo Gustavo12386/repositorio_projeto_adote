@@ -1,0 +1,50 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'usuarios/css/cadastro.css' %}" rel="stylesheet">
+    <link href="{% static 'divulgar/css/novo_pet.css' %}" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 bg-side sidebar">                   
+                    <h2>ADO.TE</h2>
+                    <br>
+                    {% if not user.is_authenticated %}                
+                      <h5><a href="{% url 'login' %}">Fazer login</a></h5>                      
+                      <span>ou</span>                       
+                      <h5><a href="{% url 'cadastro' %}">Cadastre-se</a></h5>                                                         
+                    {%endif%}
+                </div>
+
+                <div class="col-md">
+                    <div class="wrapper">
+                        <div class="box">
+                            <div class="header-box">
+                                <img class="logo-margin-top" src="{% static 'pagina_inicial/img/logo_adote.png' %}" width="40%">
+                                <h1>ADO.TE</h1>
+                                <p>Nos ajude a salvar vidas.</p>
+                                <h1 class="font-vinho">O intuito desse site é ajudar você que está precisando adotar um pet ou divulgar ou divulgá-lo para ser adotado por alguma pessoa</h1>                                
+                            </div>                             
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
