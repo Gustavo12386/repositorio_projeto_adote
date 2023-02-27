@@ -1,7 +1,9 @@
 # repositorio_projeto_adote
 
+- link: https://gustavo12386.pythonanywhere.com/
+
 ## Sobre o Projeto
-O projeto adote é uma aplicação web construida com a linguagem de programação python e o framework django.
+O projeto adote é uma aplicação web construida com a linguagem de programação python e o framework django, a aplicação foi feita em um evento chamado de pystack-week do canal do youtube pythonando.
 
 A aplicação tem o intuito, no qual um determinado usuario pode divulgar um determinado pet para adoção para
 ele ser adotado por alguem ou simplesmente ele adotar um determinado pet.
