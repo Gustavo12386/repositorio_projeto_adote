@@ -43,7 +43,7 @@ e tela de 2023-02-27 11-44-40](https://user-images.githubusercontent.com/8170084
 
 # Autor
 
-Gustavo Viana 
+Gustavo Calderaro
 
 https://www.linkedin.com/in/gustavo-viana-95206520a/
 
