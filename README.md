@@ -11,7 +11,7 @@ ele ser adotado por alguem ou simplesmente ele adotar um determinado pet.
 
 
 ## Tecnologias utilizadas:
-- HTML5, CSS3, Bootstrap, Python e Django e PostgreSQL.
+- HTML5, CSS3, Bootstrap, Python, Django e PostgreSQL.
 
 ## Como executar o projeto
 
